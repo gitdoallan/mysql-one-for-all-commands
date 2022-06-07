@@ -311,7 +311,7 @@ describe('Queries de seleção', () => {
     });
   });
 
-  describe('8 - Exibe uma relação de álbuns produzidos pelo artista Walter Phoenix', () => {
+  describe.only('8 - Exibe uma relação de álbuns produzidos pelo artista Walter Phoenix', () => {
     it('Verifica o desafio 8', async () => {
       const challengeQuery = readFileSync('desafio8.sql', 'utf8');
 
